@@ -82,13 +82,13 @@ $t7 = null;
 					
 				<table class="table">
 					<tr>
-						<td><strong>Sun <?=date('m-d-y', $today);?></strong></td>
-						<td><strong>Mon <?=date('m-d-y', $t2);?></strong></td>
-						<td><strong>Tue <?=date('m-d-y', $t3);?></strong></td>
-						<td><strong>Wed <?=date('m-d-y', $t4);?></strong></td>
-						<td><strong>Thu <?=date('m-d-y', $t5);?></strong></td>
-						<td><strong>Fri <?=date('m-d-y', $t6);?><strong></td>
-						<td><strong>Sat <?=date('m-d-y', $t7);?></strong></td>
+						<td><strong><?=date('D', $today)." ";?><?=date('m-d-y', $today);?></strong></td>
+						<td><strong><?=date('D', $t2)." ";?><?=date('m-d-y', $t2);?></strong></td>
+						<td><strong><?=date('D', $t3)." ";?><?=date('m-d-y', $t3);?></strong></td>
+						<td><strong><?=date('D', $t4)." ";?><?=date('m-d-y', $t4);?></strong></td>
+						<td><strong><?=date('D', $t5)." ";?><?=date('m-d-y', $t5);?></strong></td>
+						<td><strong><?=date('D', $t6)." ";?><?=date('m-d-y', $t6);?><strong></td>
+						<td><strong><?=date('D', $t7)." ";?><?=date('m-d-y', $t7);?></strong></td>
 					</tr>
 					
 					<?php
